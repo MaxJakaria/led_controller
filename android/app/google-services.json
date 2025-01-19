@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303337035628",
+    "project_id": "led-controller-55f1c",
+    "storage_bucket": "led-controller-55f1c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303337035628:android:a38722bdaa45d1bffa8549",
+        "android_client_info": {
+          "package_name": "com.example.led_controller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqnugSnaYqVQ7tQpfApvhF8yUrnbp9sCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
