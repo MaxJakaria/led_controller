@@ -3,7 +3,12 @@ import 'package:led_controller/core/theme/app_pallete.dart';
 
 class AuthGradientButton extends StatelessWidget {
   final String buttonName;
-  const AuthGradientButton({super.key, required this.buttonName});
+  final VoidCallback onPressed;
+  const AuthGradientButton({
+    super.key,
+    required this.buttonName,
+    required this.onPressed,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +22,7 @@ class AuthGradientButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(7),
       ),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: onPressed,
         style: ElevatedButton.styleFrom(
           backgroundColor: AppPallete.transparentColor,
           shadowColor: AppPallete.transparentColor,
